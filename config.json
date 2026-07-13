@@ -1,0 +1,49 @@
+{
+    "vector_sizes": {
+        "SNI": 130,
+        "SrcPort": 1,
+        "Client CipherSuite": 17,
+        "Client Extensions": 17,
+        "Client Supported Groups": 17
+    },
+    "input_size": 182,
+    "latent_size": 14,
+    "proportional_scaling": 1,
+    "max_layers": 8,
+    "combine_dimensions": 0,
+    "mid_layers_to_test": [
+        128,
+        91,
+        45,
+        22
+    ],
+    "train_model_name": "trained/AirDroid/182-140-98-56-14.pth",
+    "test_models_name": {
+        "trained/AirDroid/182-140-98-56-14.pth": "AirDroidAirDroid",
+        "trained/BiduTerBox/182-140-98-56-14.pth": "BiduTerBox",
+        "trained/OerOer/182-140-98-56-14.pth": "OerOer",
+        "trained/AdmntMessenger/182-140-98-56-14.pth": "AdmntMessenger",
+        "trained/OenMedi4KStogrm/182-140-98-56-14.pth": "OenMedi4KStogrm"
+    },
+    "model_dimensions": [
+        182,140,98,56,14
+    ],
+    "train_split": 0.7,
+    "lr": 0.0001,
+    "load_threshold": 1,
+    "dest_app_name": [
+        "AirDroidAirDroid",
+        "BiduTerBox",
+        "OerOer",
+        "AdmntMessenger",
+        "OenMedi4KStogrm"
+    ],
+    "early_stopping": {
+        "enabled": 1,
+        "patience": 100,
+        "min_delta": 5e-07,
+        "min_epochs": 0,
+        "starting_delta": 1e-06,
+        "all_apps_fine_tune": 1e-05
+    }
+}

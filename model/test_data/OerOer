@@ -1,0 +1,27 @@
+SrcIP: 172.28.76.135
+DstIP: 104.96.143.250
+SrcPort: 49859
+DstPort: 443
+Proto: 6
+SNI: cdn-production-opera-website.operacdn.com
+OrgName: Akamai International, BV, AIBV
+TLS Version: 771
+Client CipherSuite: 47-53-156-157-4865-4866-4867-49171-49172-49195-49196-49199-49200-52392-52393
+Client Extensions: 0-5-10-11-13-16-18-23-27-35-43-45-51-17513-65037-65281
+Client Supported Groups: 0x0017,0x0018,0x001d,0x3a3a,0x6399
+EC_fmt: 0
+ALPN: h2,http/1.1
+Signature Algorithms: 0403,0804,0401,0503,0805,0501,0806,0601
+Client Supported Versions: 0xbaba,0x0304,0x0303
+JA3hash: 586d30a146eec6e8b89f2ca30dbbc6b3
+JA4 hash: t13d1516h2_8daaf6152771_02713d6af862
+JA4_raw: t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,4469,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601
+AppName: OerOer
+Type: 0
+Server CipherSuite: 4866.0
+Server Extensions: 43-51
+Server Supported Versions: 0x0304
+JA3S hash: 15af977ce25de452b96affa2addb1036
+JA4S hash: t130200_1302_a56c5b993250
+JA4S_raw: t130200_1302_002b,0033
+Filename: tests/

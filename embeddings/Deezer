@@ -1,0 +1,28 @@
+SrcIP: 172.17.159.91
+DstIP: 192.229.133.15
+SrcPort: 49720
+DstPort: 443
+Proto: 6
+SNI: e-cdns-images.dzcdn.net
+OrgName: Edgecast Inc., EDGECAST-NETBLK-08
+TLS Version: 771
+Client CipherSuite: 4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53
+Client Extensions: 0-23-65281-10-11-35-16-5-13-18-51-45-43-27-21
+Client Supported Groups: 0xdada,0x001d,0x0017,0x0018
+EC_fmt: 0
+ALPN: h2,http/1.1
+Signature Algorithms: 0403,0804,0401,0503,0805,0501,0806,0601
+Client Supported Versions: 0x8a8a,0x0304,0x0303,0x0302,0x0301
+JA3hash: b32309a26951912be7dba376398abc3b
+JA4 hash: t13d1515h2_8daaf6152771_de4a06bb82e3
+JA4_raw: t13d1515h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0015,0017,001b,0023,002b,002d,0033,ff01_0403,0804,0401,0503,0805,0501,0806,0601
+AppName: DeezerDeezer
+Type: 0
+Server CipherSuite: 4866
+Server Extensions: 43-51
+Server Supported Versions: 0x0304
+JA3S hash: 15af977ce25de452b96affa2addb1036
+JA4S hash: t130200_1302_a56c5b993250
+JA4S_raw: t130200_1302_002b,0033
+Filename: tests/ondra3/20240813/DeezerDeezer_20240813-extracted.csv
+Version: 0
